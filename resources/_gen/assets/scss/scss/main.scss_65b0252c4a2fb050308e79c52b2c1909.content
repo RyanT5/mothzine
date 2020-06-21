@@ -48,8 +48,9 @@
   --gray: #f5f5f5;
   --bubble: #131313;
   --accent: var(--gray);
-  --bg: var(--light);
+  --bg: #f0e3ad;
   --text: var(--dark);
+  --title: var(--dark);
   --font: 'Metropolis', sans-serif;
   --theme: #04a763;
   --ease: cubic-bezier(.19,1,.22,1);
@@ -59,6 +60,7 @@
   --color-mode: 'dim';
   --bg: var(--dark);
   --text: var(--light);
+  --title: var(--dark);
   --accent: var(--bubble);
 }
 
@@ -80,6 +82,7 @@
     --color-mode: 'dim';
     --bg: var(--dark);
     --text: var(--light);
+    --title: var(--dark);
     --accent: var(--bubble);
   }
   :root:not([data-mode="lit"]) * {
@@ -175,6 +178,10 @@ blockquote p {
   width: 100%;
   font-weight: 300;
   font-style: italic;
+}
+
+.title {
+  color: var(--title);
 }
 
 code {
@@ -281,6 +288,7 @@ aside h3 {
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.12);
   overflow: hidden;
   border-radius: 0.5rem;
+  background: #ecdb96;
 }
 
 .article_title {
@@ -302,7 +310,7 @@ aside h3 {
 
 .article_meta {
   padding: 10px 1.25rem 1.25rem;
-  background: var(--bg);
+  background: #ecdb96;
   color: var(--text);
   position: relative;
   z-index: 2;

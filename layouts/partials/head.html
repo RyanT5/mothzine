@@ -2,13 +2,13 @@
   <title>{{ .Site.Title }}</title>
   <!-- {{ with .Title }}{{ humanize . }} | {{ end }} -->
   <meta charset='utf-8'>
-  {{- with .Site.Params.ga_verify }}
+  <!-- {{- with .Site.Params.ga_verify }}
   <meta name="google-site-verification" content="{{ . }}" />
-  {{- end }}
+  {{- end }} -->
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  {{- partial "analytics" . }}
-  {{- partial "opengraph" . }}
+  <!-- {{- partial "analytics" . }} -->
+  <!-- {{- partial "opengraph" . }} -->
   {{- partial "favicon" . }}
   <link rel='canonical' href='{{ .Permalink }}'>
   {{- $options := (dict "targetPath" "css/main.css" "outputStyle" "expanded" "enableSourceMap" "true") -}}
