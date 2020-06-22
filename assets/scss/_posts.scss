@@ -135,6 +135,8 @@
   &_thumbnail {
     width: 100%;
     margin: 0;
+    max-height: 500px;
+    object-fit: cover;
   }
   &_nav {
     padding: 3rem 1.5rem;

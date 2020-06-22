@@ -35,5 +35,6 @@
     {{- if and (eq $index (add $size -1)) (gt $size 1) }}</div>{{ end }}
   {{- end }}
 </div>
-<a href='{{ absURL (printf "post/%s" "") }}' class='post_nav'><span class='post_next'>Older posts</span></a>
+{{- partial "pager" . }}
+<!-- <a href='{{ absURL (printf "post/%s" "") }}' class='post_nav'><span class='post_next'>Older posts</span></a> -->
 {{ end }}

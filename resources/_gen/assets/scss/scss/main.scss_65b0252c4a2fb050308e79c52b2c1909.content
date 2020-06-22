@@ -228,7 +228,7 @@ img {
 }
 
 main {
-  padding-bottom: 45px;
+  padding-bottom: 25px;
   flex: 1;
 }
 
@@ -505,7 +505,7 @@ aside h3 {
   margin: 0;
   width: 100%;
   font-size: 1.05rem;
-  min-height: 75px;
+  min-height: 50px;
   display: flex;
   justify-content: space-between;
   padding: 1.5rem;
@@ -890,6 +890,8 @@ aside h3 {
 .post_thumbnail {
   width: 100%;
   margin: 0;
+  max-height: 500px;
+  object-fit: cover;
 }
 
 .post_nav {
