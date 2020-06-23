@@ -745,15 +745,15 @@ aside h3 {
 }
 
 .post h2, .post h3, .post h4 {
-  margin: 0.5rem auto;
+  margin-bottom: -0.5rem;
+  padding-bottom: 0px;
   text-align: left;
-  padding: 5px 0 0 0;
 }
 
 .post p {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
 }
 
 .posts {
@@ -789,11 +789,6 @@ aside h3 {
 .post_inner img:not(.icon) {
   margin-bottom: 2rem;
   box-shadow: 0 1.5rem 1rem -1rem rgba(0, 0, 0, 0.25);
-}
-
-.post_inner img:not(.icon) ~ h1, .post_inner img:not(.icon) ~ h2, .post_inner img:not(.icon) ~ h3, .post_inner img:not(.icon) ~ h4 {
-  margin-top: 0;
-  padding-top: 0;
 }
 
 .post .icon {
@@ -877,7 +872,14 @@ aside h3 {
 }
 
 .post_title {
-  margin: 5px 0;
+  margin: 10px 0;
+  line-height: 34px;
+}
+
+.post_author {
+  margin: -10px 0px 10px 0px;
+  top: -10px;
+  font-size: 20px;
 }
 
 .post_time {
