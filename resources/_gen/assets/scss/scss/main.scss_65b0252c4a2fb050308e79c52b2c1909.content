@@ -235,7 +235,6 @@ img {
 }
 
 main {
-  padding-bottom: 25px;
   flex: 1;
 }
 
@@ -521,6 +520,7 @@ aside h3 {
 @media screen and (max-width: 567px) {
   .footer {
     flex-direction: column;
+    margin-bottom: 25px;
   }
 }
 
@@ -888,6 +888,7 @@ aside h3 {
   margin: -10px 0px 10px 0px;
   top: -10px;
   font-size: 20px;
+  text-transform: none;
 }
 
 .post_time {

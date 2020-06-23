@@ -197,6 +197,7 @@
   padding: 1.5rem;
   @media screen and (max-width: 567px) {
     flex-direction: column;
+    margin-bottom: 25px;
   }
   a {
     color:var(--theme);
