@@ -33,15 +33,15 @@
 @for $i from 1 through 2 {
   $size: $i * 1.5rem;
   $x-size: $size * 0.5; 
-  .pt-#{$i} {
-    padding-top: $size;
-  }
+  // .pt-#{$i} {
+  //   padding-top: $size;
+  // }
   .pb-#{$i} {
     padding-bottom: $size;
   }
-  .mt-#{$i} {
-    margin-top: $size;
-  }
+  // .mt-#{$i} {
+  //   margin-top: $size;
+  // }
   .mb-#{$i} {
     margin-bottom: $size;
   }
