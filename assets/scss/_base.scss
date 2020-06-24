@@ -13,7 +13,7 @@ body{
   font-family: var(--font);
   background-color: var(--bg);
   color: var(--text);
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   line-height: 1.5;
   max-width:1440px;
   margin:0 auto;
@@ -62,6 +62,10 @@ blockquote {
 }
 .title {
   color: var(--title);
+  font-family: var(--title-font);
+}
+.date {
+  font-family: var(--date-font);
 }
 code {
   max-width: 100%;

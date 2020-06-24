@@ -51,7 +51,9 @@
   --bg: #f0e3ad;
   --text: var(--dark);
   --title: var(--dark);
-  --font: 'Metropolis', sans-serif;
+  --font: 'Source Serif Pro', serif;
+  --title-font: 'Yeseva One', serif;
+  --date-font: 'Metropolis', sans-serif;
   --theme: #ae186c;
   --ease: cubic-bezier(.19,1,.22,1);
 }
@@ -129,7 +131,7 @@ body {
   font-family: var(--font);
   background-color: var(--bg);
   color: var(--text);
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   line-height: 1.5;
   max-width: 1440px;
   margin: 0 auto;
@@ -182,6 +184,11 @@ blockquote p {
 
 .title {
   color: var(--title);
+  font-family: var(--title-font);
+}
+
+.date {
+  font-family: var(--date-font);
 }
 
 code {
@@ -303,7 +310,8 @@ aside h3 {
 
 .article_excerpt {
   transition: height 0.5s, opacity 0.5s;
-  font-size: 16px;
+  font-size: 17px;
+  font-family: var(--font);
 }
 
 .article_excerpt:not(.visible) {
@@ -511,7 +519,7 @@ aside h3 {
   color: var(--text);
   margin: 0;
   width: 100%;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   min-height: 50px;
   display: flex;
   justify-content: space-between;
@@ -762,7 +770,8 @@ aside h3 {
 .post p {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
+  font-family: var(--font);
 }
 
 .posts {
@@ -807,6 +816,7 @@ aside h3 {
 
 .post_date {
   margin-bottom: -1.25rem;
+  font-family: var(--date-font) !important;
 }
 
 .post_copy {
@@ -883,12 +893,13 @@ aside h3 {
 .post_title {
   margin: 10px 0;
   line-height: 34px;
+  font-family: var(--title-font);
 }
 
 .post_author {
   margin: -10px 0px 10px 0px;
   top: -10px;
-  font-size: 20px;
+  font-size: 22px;
   text-transform: none;
 }
 

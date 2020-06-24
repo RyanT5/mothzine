@@ -23,7 +23,8 @@
   p{
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
-    font-size: 1.15rem;
+    font-size: 1.25rem;
+    font-family: var(--font);
   }
   &s{
     display:flex;
@@ -67,6 +68,7 @@
   }
   &_date {
     margin-bottom: -1.25rem;
+    font-family: var(--date-font) !important;
   }
   &_copy {
     opacity: 0;
@@ -129,11 +131,12 @@
   &_title{
     margin: 10px 0;
     line-height: 34px;
+    font-family: var(--title-font);
   }
   &_author{
     margin: -10px 0px 10px 0px;
     top: -10px;
-    font-size: 20px;
+    font-size: 22px;
     text-transform: none;
   }
   &_time {
