@@ -12,6 +12,7 @@
       opacity: 0;
     }
     transition: height 0.5s, opacity 0.5s;
+    font-size: 16px;
   }
   &_excerpt,
   &_meta {
@@ -197,7 +198,8 @@
   padding: 1.5rem;
   @media screen and (max-width: 567px) {
     flex-direction: column;
-    margin-bottom: 25px;
+    margin-bottom: 25px !important;
+    text-align: center;
   }
   a {
     color:var(--theme);
