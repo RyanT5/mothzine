@@ -145,6 +145,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#salt-lamp {
+  position: fixed;
+  width: 500px;
+  right: 0px;
+  bottom: -100px;
+  z-index: -1;
+  object-fit: fill;
+}
+
+@media screen and (max-width: 1140px) {
+  #salt-lamp {
+    display: none;
+  }
+}
+
 a {
   text-decoration: none;
   color: inherit;
