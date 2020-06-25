@@ -8,7 +8,7 @@
 {{- end }}
 {{- end }}
 <div class='wrap pt-2 mt-2'>
-  <h1 class="title">Latest Posts</h1>
+  <h1 style="font-family: var(--title-font);">Latest Posts</h1>
   {{- $size := .Paginator.PageSize }}
   {{- $scratch := newScratch }}
   {{- range $index, $value := (.Paginate $pages).Pages }}
