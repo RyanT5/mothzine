@@ -1,4 +1,4 @@
-baseurl = "/"  # Include trailing slash
+baseurl = "https://mothzine.com/"  # Include trailing slash
 title = "Mothzine"
 theme = "newsroom"
 author = "author"
