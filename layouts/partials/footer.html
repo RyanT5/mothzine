@@ -3,9 +3,11 @@
   <!-- <p>{{ i18n "designed_by" .Site.Data.designer | safeHTML }}</p> -->
   <p>Follow us on <a href="https://www.instagram.com/mothzine/">Instagram</a></p>
 </footer>
+{{- if .IsHome }}
 <div id="salt-lamp">
   <img src="images/lamp.png">
 </div>
+{{ end }}
 {{ $scriptPath := "js/index.js" }}
 {{ $scripts := resources.Get $scriptPath | resources.ExecuteAsTemplate $scriptPath . | resources.Minify | resources.Fingerprint "sha512" }}
 <script src='{{ $scripts.Permalink }}'></script>

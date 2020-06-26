@@ -80,13 +80,17 @@
 }
 .never {
   min-height: 60vh;
-  background: url($never-icon-path);
+  background: url("/images/lil-moth.png");
   background-position: right bottom;
+  @media screen and (max-width: 785px){
+    background-position: center bottom;
+  }
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 60%;
   padding: 0 1.5rem;
   margin-top: 6rem;
   &_title {
     text-align: left;
+    font-family: var(--title-font);
   }
 }
