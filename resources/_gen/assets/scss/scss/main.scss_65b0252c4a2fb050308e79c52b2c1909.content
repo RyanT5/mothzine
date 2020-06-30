@@ -282,7 +282,6 @@ main {
 }
 
 ul {
-  list-style: none;
   -webkit-padding-start: 0;
   -moz-padding-start: 0;
 }
