@@ -8,7 +8,7 @@
   <!-- </nav> -->
 </header>
 {{- if .IsHome }}
-{{ if ne "/page/2/" .Paginator.URL }}
+{{ if eq "/" .Paginator.URL }}
 <div id="mothzine-logo">
   <img src="{{ absURL "images/logo/mothzine.png" }}">
 </div>

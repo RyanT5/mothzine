@@ -8,8 +8,11 @@
 {{- end }}
 {{- end }}
 <div class='wrap pt-2 mt-2'>
+  {{ if eq "/" .Paginator.URL }}
   <h1 style="font-family: var(--title-font);">Latest Posts</h1>
-  <!-- <h1 style="font-family: var(--title-font);">{{ .Paginator.URL }}</h1> -->
+  {{ else }}
+  <h1 style="font-family: var(--title-font);">Older Posts</h1>
+  {{ end }}
   {{- $size := .Paginator.PageSize }}
   {{- $scratch := newScratch }}
   {{- range $index, $value := (.Paginate $pages).Pages }}
